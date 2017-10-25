@@ -23,10 +23,6 @@ no warnings qw(experimental::signatures);
 use Replicant::Predicate;
 use Replicant::Network;
 
-our $VERSION = '0.0.0';
-
-sub version { $VERSION; }
-
 sub rule_to_full_url ($url, $rule) {
     $rule =~ s/^\s+//;
     $url . $rule;
