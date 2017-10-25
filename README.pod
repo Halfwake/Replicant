@@ -1,0 +1,5 @@
+=head1 README
+
+Replicant is a web robot that automatically fetches files disallowed by a website's 'robots.txt'. It's also a small library for working with 'robots.txt' files. You may find Replicant useful in security work, researching 'robots.txt' usage, or to demonstrate why we can't have nice things.
+
+Replicant is a FUBAR WIP right now. Hopefully it will be on CPAN in the future.
